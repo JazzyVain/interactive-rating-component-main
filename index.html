@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
@@ -7,6 +7,7 @@
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="animation.css">
+  
   <title>Frontend Mentor | Interactive rating component</title>
 
 
@@ -16,29 +17,14 @@
   </style>
 </head>
 <body>
-
-
-  How did we do?
-
-  Please let us know how we did with your support request. All feedback is appreciated 
-  to help us improve our offering!
-
-
-
-
-  You selected  out of 5
-
-  Thank you!
-
-  We appreciate you taking the time to give a rating. If you ever need more support, 
-  don’t hesitate to get in touch!
-
-
+  
   <div class="container">
     <div class="bolinha" id="estrelinha">
-      <img src="images/icon-star.svg" alt="">
+      <img src="images/icon-star.svg" alt="estela">
     </div>
-    <div class="submit">SUBMIT</div>
+    <h1 class="how">How did we do?</h1>
+    <p class="descricao">Please let us know how we did with your support request. All feedback is appreciated 
+  to help us improve our offering!</p>
     <div class="container-b">
       <button class="bolinha" id="bolinha1">1</button>
       <button class="bolinha" id="bolinha2">2</button>
@@ -46,6 +32,8 @@
       <button class="bolinha" id="bolinha4">4</button>
       <button class="bolinha" id="bolinha5">5</button>
     </div>
+    <button onclick="window.location.href='2.html'" class="submit">SUBMIT</button>
+    <script src="logic.js"></script>
   </div>
 
 </body>
